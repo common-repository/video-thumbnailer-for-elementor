@@ -1,0 +1,97 @@
+/* Settings page */
+
+
+
+.vtfe_form .bg-primary {
+
+	background-color:#9f2382!important;
+
+}
+
+
+
+/* ELementor */
+
+
+
+.elementor-auto-video-thumbnail, .elementor-fit-aspect-ratio-auto-video-thumbnail {
+
+	height: 0 !important;
+
+	width: 100%;
+
+	padding-bottom: 56.25% !important;
+
+	position: relative;
+
+	background-position: center;
+
+	background-size: contain;
+
+	background-repeat: no-repeat;
+
+	background-color: black;
+
+}
+
+.elementor-auto-video-thumbnail.elementor-auto-video-thumbnail-crop, .elementor-fit-aspect-ratio-auto-video-thumbnail.elementor-auto-video-thumbnail-crop {
+
+	background-size: cover;
+
+}
+
+.elementor-auto-video-thumbnail-edit {
+
+	background-image: url("../images/bg.png") !important;
+
+	background-size: auto !important;
+
+	background-repeat: repeat !important;
+
+	position: relative;
+
+}
+
+.elementor-auto-video-thumbnail-edit:not(.elementor-auto-video-thumbnail-crop):before {
+
+	position: absolute;
+
+	height: 100%;
+
+	width: 100%;
+
+	border-top: 40px solid black;
+
+	border-bottom: 40px solid black;
+
+	display: block;
+
+	top: 0;
+
+	left: 0;
+
+	content: "";
+
+	z-index: 2;
+
+}
+
+.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay.elementor-auto-video-thumbnail {
+
+	height: 100% !important;
+
+}
+
+.elementor-auto-video-thumbnail img {
+
+	width: 100%;
+
+	height: 100%;
+
+	top: 0;
+
+	object-fit: cover;
+
+	position: absolute;
+
+}
